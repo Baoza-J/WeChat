@@ -39,6 +39,8 @@ def get():
             print()
         except (ValueError, ZeroDivisionError, TypeError):
             print('你输入的有问题！！！\n')
+    elif c not in ['+','-','*','/']:
+        print('你输入的有问题\n')
 
 if __name__ == '__main__':
     while True:
