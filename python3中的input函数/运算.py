@@ -38,7 +38,7 @@ def get():
             print('结果为', a/b)
             print()
         except (ValueError, ZeroDivisionError, TypeError):
-            print('被除数不能是零！！！\n')
+            print('你输入的有问题！！！\n')
 
 if __name__ == '__main__':
     while True:
